@@ -2,7 +2,7 @@ jupyterhub:
   proxy:
     https:
       hosts:
-      - staging.atmos.pangeo.io
+      - atmos.pangeo.io
       letsencrypt:
         contactEmail: dludwig@anaconda.com
     # service:

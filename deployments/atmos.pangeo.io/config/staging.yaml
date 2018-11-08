@@ -5,5 +5,5 @@ jupyterhub:
       - atmos.pangeo.io
       letsencrypt:
         contactEmail: dludwig@anaconda.com
-    # service:
-    #   loadBalancerIP: 104.154.59.98
+    service:
+      loadBalancerIP: 35.184.25.194

@@ -33,3 +33,12 @@ kubernetes:
           requests:
             cpu: "1.75"
             memory: 7G
+      tolerations:
+      - key: "k8s.dask.org_dedicated"
+        operator: "Equal"
+        value: "worker"
+        effect: "NoSchedule"
+      - key: "k8s.dask.org/dedicated"
+        operator: "Equal"
+        value: "worker"
+        effect: "NoSchedule"
